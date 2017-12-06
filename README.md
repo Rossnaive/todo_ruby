@@ -5,7 +5,7 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version Rails 5.1.4
 
 * System dependencies
 
@@ -19,6 +19,12 @@ Things you may want to cover:
 
 * Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+* Deployment on heroku instructions:
+ - Heroku login
+ - git init
+ - git add .
+ - git commit
+ - heroku create
+ - git push heroku master
 
 * ...
