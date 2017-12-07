@@ -1,23 +1,32 @@
-# README
+## Todo List App Using Ruby on Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Table of content
+1. [Project Overview](# Project Overview)
+2. [How to run](# How to run)
+3. [Features](# Features)
+4. [Database](# Database)
+5. [Credits](# Credits)
+6. [References](# References)
 
-Things you may want to cover:
+# Project Overview
+Underscores
+This project is an application that user can create todo lists and tasks for each list, note-edit-delete completed task.
+# How to run
+Underscores
+## Installation require packages
+ 1. Firstly, You need install rails
+ ( Download and install rails on window, i'm using win10)
+ 2. Create todo Project
+    ```
+    rails new todo
 
-* Ruby version Rails 5.1.4
+    ```
+ 3. Using scaffold create todo lists
+    ```
+    rails g scaffold todo_list title:string descripton: text
 
-* System dependencies
+    ```
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
 
 * Deployment on heroku instructions:
  - Heroku login
