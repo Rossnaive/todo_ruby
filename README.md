@@ -1,12 +1,5 @@
 ## Todo List App Using Ruby on Rails
 
-### Table of content
-1. [Project Overview](#Project Overview)
-2. [How to run](#How to run)
-3. [Features](#Features)
-4. [Database](#Database)
-5. [Credits](#Credits)
-6. [References](#References)
 
 # Project Overview
 
@@ -25,14 +18,14 @@ This project is an application that user can create todo lists and tasks for eac
     ```
     rails g scaffold todo_list title:string descripton: text
     rake db: migrate
+    ```
 
-  ```
-  5. Create model: todo_item
+  4. Create model: todo_item
   ```
   rails g model todo_item content:string todo_list:References
   rake db: migrate
   ```
-  6. Create controller todo_item
+  5. Create controller todo_item
   ```
   rails g controller todo_item
 
